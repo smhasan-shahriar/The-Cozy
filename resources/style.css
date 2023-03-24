@@ -1,0 +1,142 @@
+*{
+    font-family: Helvetica;
+    color: seashell;
+ 
+}
+
+body{
+    background-color: rgba(0, 0, 0, 0.9); 
+    margin: 0; 
+}
+
+.container{
+    height: 69px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid seashell; 
+}
+
+.box{
+    align-self: center; 
+    display: flex;
+}
+
+.img-1{
+   height: 50px; 
+   margin-left: 10px; 
+}
+
+.box-2{
+    margin: 0 10px; 
+    align-self: center; 
+}
+
+.primary-container{
+    display: flex; 
+    justify-content: center;
+}
+.main-container{
+    background-image: url("/resources/img-mission-background.jpg");
+    height: 700px; 
+    width: 1200px; 
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+    margin-bottom: 50px; 
+  
+}
+.text-container{ 
+    background: black;
+    width: 1200px; 
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+    
+}
+
+.small-img{
+    width: 300px;
+    height: 200px;
+}
+
+.container-2{
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    width: 1000px; 
+    margin: auto; 
+}
+
+.text-2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.small-container-1{
+    display: flex;
+    justify-content: space-around; 
+    width: 1000px; 
+}
+
+.small-container-2{
+    display: flex;
+    justify-content: space-around; 
+    width: 700px; 
+}
+
+.img-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+}
+
+.third-container{
+    background-image: url("/resources/img-locations-background.jpg");
+    height: 500px; 
+    width: 1200px; 
+    margin: auto; 
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    justify-content: center;
+}
+
+.third-mini{
+    margin-top: 15px; 
+    display: flex; 
+    justify-content: center;
+    align-self: center; 
+}
+.third-1-container{
+    background: black;
+    width: 300px; 
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around; 
+    align-items: center; 
+    margin-right: 40px; 
+    text-align: center; 
+    line-height: 2.4; 
+
+}
+
+.last-container{
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center; 
+
+}
+
+footer{
+    margin-left: 20px;
+    text-align: left; 
+}
